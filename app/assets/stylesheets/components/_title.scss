@@ -1,0 +1,21 @@
+.title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  max-width: 671px;
+  line-height: 38px;
+  font-weight: lighter;
+}
+.title__main {
+  font-size: 42px;
+  color: $dark-blue;
+  letter-spacing: 4.3px;
+  font-weight: bold;
+  margin-bottom: 33.5px;
+}
+
+.title__sub {
+  font-size: 22px;
+  color: $black;
+}
