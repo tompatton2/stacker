@@ -4,3 +4,18 @@
   align-items: center;
   justify-content: center;
 }
+
+.wrapper-white {
+  background-color: white;
+}
+
+.wrapper-gray {
+  background-color: $gray;
+  opacity: 40%
+}
+
+.wrapper-green {
+  background-color: $light-aqua;
+  opacity: 50%
+}
+
