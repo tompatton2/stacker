@@ -1,0 +1,13 @@
+.btn {
+  color: white;
+  padding: 20px 50px;
+  border-radius: 45px;
+  background: $aqua-blue;
+  opacity: .9;
+  transition: background 1s ease;
+
+  &:hover {
+    opacity: 1;
+    color: white;
+  }
+}
