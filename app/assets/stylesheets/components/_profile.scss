@@ -1,0 +1,31 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  color: black;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+.profile__photo {
+  // height: 275px;
+  margin-bottom: 50px;
+}
+
+.profile__name {
+  color: $dark-blue;
+  font-size: 14px;
+}
+
+.profile__description {
+  font-weight: light;
+  max-width: 450px;
+  line-height: 19px;
+
+}
+
+.profile__position {
+  color: $dark-blue;
+  font-size: 14px;
+  margin-top: 20px;
+}
