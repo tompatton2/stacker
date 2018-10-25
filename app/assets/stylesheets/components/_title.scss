@@ -14,6 +14,7 @@
 
 .title-banner {
   max-width: 800px;
+  padding: 0px 30px;
 }
 
 .title__main {
@@ -22,12 +23,14 @@
   letter-spacing: 4.3px;
   font-weight: bold;
   margin-bottom: 33.5px;
+  text-align: center;
+  padding: 0px 30px;
 }
 
 .title__main-team {
   font-size: 54px;
   color: white;
-  letter-spacing: 26.3px;
+  // letter-spacing: 10px;
 }
 
 .title__sub {

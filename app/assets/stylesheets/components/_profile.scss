@@ -18,10 +18,11 @@
 }
 
 .profile__description {
-  font-weight: light;
+  font-weight: lighter;
   max-width: 450px;
-  line-height: 19px;
-
+  line-height: 20px;
+  font-size: 14px;
+  color: $black;
 }
 
 .profile__position {
