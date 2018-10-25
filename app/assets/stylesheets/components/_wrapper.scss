@@ -3,15 +3,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .wrapper-white {
   background-color: white;
+  padding: 80px;
 }
 
 .wrapper-gray {
   background-color: $gray;
-  opacity: 40%
+  opacity: 40%;
+  padding: 80px;
 }
 
 .wrapper-green {
@@ -20,9 +23,9 @@
 }
 
 .wrapper-paralax_modern {
-  background: linear-gradient(100deg, rgba(146,204,203,.24) 0, rgba(146,204,203,0.24) 100%), url("https://images.unsplash.com/photo-1492546643178-96d64f3fd824?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8c8b0ca61fa643ce14689caf7a5bd84d&auto=format&fit=crop&w=1651&q=80") no-repeat center;
+  background: linear-gradient(100deg, rgba(193,226,227,.83) 0, rgba(193,226,227,0.88) 100%), url("https://images.unsplash.com/photo-1492546643178-96d64f3fd824?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8c8b0ca61fa643ce14689caf7a5bd84d&auto=format&fit=crop&w=1651&q=80") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  height: 500px;
+  // height: 500px;
 }
 

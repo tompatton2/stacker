@@ -1,0 +1,43 @@
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+  max-width: 450px;
+}
+
+.block-big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.block__icon {
+  height:40px;
+  margin-bottom: 50px;
+}
+
+.block__icon-data {
+  height:94px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.block__title {
+  font-size: 32px;
+  text-align: center;
+  color: $dark-blue;
+  font-weight: bold;
+  margin-bottom: 38px;
+}
+
+.block__text {
+  text-align: center;
+  color: $dark-blue;
+  font-weight: lighter;
+  font-size: 22px;
+  line-height: 45px;
+}

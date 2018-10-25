@@ -7,6 +7,15 @@
   line-height: 38px;
   font-weight: lighter;
 }
+
+.title-no_sub {
+  margin-bottom: 50px;
+}
+
+.title-banner {
+  max-width: 800px;
+}
+
 .title__main {
   font-size: 42px;
   color: $dark-blue;
@@ -15,13 +24,32 @@
   margin-bottom: 33.5px;
 }
 
+.title__main-team {
+  font-size: 54px;
+  color: white;
+  letter-spacing: 26.3px;
+}
+
 .title__sub {
   font-size: 22px;
   color: $black;
+}
+
+.title__sub-about {
+  font-size: 34px;
+  color: $black;
+  margin-top: 25px;
+  color: white;
+  line-height: 57px;
+  font-weight: lighter;
 }
 
 .line {
   width: 60px;
   border-top: 6px solid $aqua-blue;
   height: 10px;
+}
+
+.line-white {
+  border-top: 6px solid white;
 }
