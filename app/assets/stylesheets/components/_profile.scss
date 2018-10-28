@@ -1,20 +1,26 @@
 .profile {
   display: flex;
   flex-direction: column;
-  justify-content: left;
+  justify-content: center;
+  align-items: center;
   color: black;
-  font-size: 12px;
-  margin-bottom: 30px;
+  font-size: 14px;
+  margin-bottom: 15px;
 }
 
 .profile__photo {
-  // height: 275px;
-  margin-bottom: 50px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 2px 26px 0 rgba(0,0,0,0.2);
+  margin-bottom: 15px;
+  text-align: center;
 }
 
 .profile__name {
   color: $dark-blue;
   font-size: 14px;
+  text-align: center;
 }
 
 .profile__description {
@@ -28,5 +34,6 @@
 .profile__position {
   color: $dark-blue;
   font-size: 14px;
-  margin-top: 20px;
+  margin-top: 5px;
+  text-align: center;
 }

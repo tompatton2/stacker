@@ -1,0 +1,63 @@
+.form {
+  background-color: transparent;
+  color: white;
+  max-width: 400px;
+  max-height: 570px;
+}
+
+.form__content {
+  display: flex;
+  flex-direction: column;
+    input, select {
+    margin-bottom: 18px;
+    margin-top: 5px;
+    font-weight: lighter;
+    color: black;
+    }
+
+    label {
+      font-weight: lighter;
+      font-size: 15px;
+    }
+
+    .form__message {
+        padding: 40px 0px;
+        margin-bottom: 50px;
+        color: black;
+        font-weight: lighter;
+    }
+}
+
+.form_text {
+  color: black;
+  font-size: 20px;
+}
+
+.form__submit {
+  background-color: $sea;
+  width: 100%;
+  padding: 11px;
+  margin-top: 45px;
+  opacity: 0.8;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.form__links {
+  font-size: 14px;
+  margin-top: 15px;
+
+  a {
+    color: $sea;
+    opacity: 0.6;
+    &:hover {
+      color: $sea;
+      opacity: 1;
+    }
+  }
+}
+
+.form-group {
+  margin: 0px
+}

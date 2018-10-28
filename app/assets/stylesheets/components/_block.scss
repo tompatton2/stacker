@@ -17,17 +17,23 @@
 
 .block__icon {
   height:40px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
-.block__icon-data {
-  height:94px;
+.block__icon_data {
+  max-height:50px;
   margin-top: 20px;
   margin-bottom: 80px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.block__icon_data-larger {
+  height:90px;
 }
 
 .block__title {
-  font-size: 32px;
+  font-size: 30px;
   text-align: center;
   color: $dark-blue;
   font-weight: bold;
@@ -38,6 +44,6 @@
   text-align: center;
   color: $dark-blue;
   font-weight: lighter;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 45px;
 }
