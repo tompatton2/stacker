@@ -13,14 +13,25 @@
 }
 
 .form_holder {
-  height: 700px;
-  width: 843px;
-  background-color: $gray;
+  // height: 70%;
+  width: 70%;
+  min-width: 350px;
+  max-width: 600px;
+  min-height: 750px;
+  background-color: white;
   margin-top: 30px;
+  box-shadow: 0 2px 26px 0 rgba(0,0,0,0.2);
+  border-radius: 3px;
 }
 
 .icon_alignment {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.form_holder {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }

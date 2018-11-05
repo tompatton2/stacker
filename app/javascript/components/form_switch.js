@@ -1,42 +1,37 @@
 function tabsActivity() {
+  const form_one = document.querySelector(".form_one")
+  const form_two = document.querySelector(".form_two")
+  const form_three = document.querySelector(".form_three")
+  const dropdown__selection = document.getElementById("dropdown__selection");
 
-  const puppy_container = document.querySelector(".pup");
-  const bookings_container = document.querySelector(".but");
-  if(puppy_container) {
-  // removing and insterting the HTML.
-    const puppy_listings = document.querySelector(".puppy_listings")
-    const bookings_listings = document.querySelector(".bookings_listings")
-
-    function remove_style(ele) {
-      ele.classList.remove("active");
-    }
-
-    function add_style(ele) {
-      ele.classList.add("active");
-    }
-
-    function hide_html(ele) {
-      ele.style.display = "none";
-    }
-
-    function show_html(ele) {
-      ele.style.display = null;
-    }
-
-    puppy_container.addEventListener("click", (event) => {
-      remove_style(bookings_container)
-      add_style(puppy_container)
-      hide_html(bookings_listings)
-      show_html(puppy_listings)
-    });
-
-    bookings_container.addEventListener("click", (event) => {
-      remove_style(puppy_container)
-      add_style(bookings_container)
-      hide_html(puppy_listings)
-      show_html(bookings_listings)
-    });
+  function hide_html(ele) {
+    ele.style.display = "none";
   }
+
+  function show_html(ele) {
+    ele.style.display = null;
+  }
+
+  dropdown__selection.addEventListener('change', function() {
+    var index = dropdown__selection.selectedIndex;
+    if (index == "1") {
+      hide_html(form_two)
+      hide_html(form_three)
+      show_html(form_one)
+    } else if (index == "2") {
+      hide_html(form_one)
+      hide_html(form_three)
+      show_html(form_two)
+    } else if (index == "3") {
+      hide_html(form_one)
+      hide_html(form_two)
+      show_html(form_three)
+    } else {
+      hide_html(form_two)
+      hide_html(form_three)
+      show_html(form_one)
+    }
+  })
 }
 
 export { tabsActivity };
