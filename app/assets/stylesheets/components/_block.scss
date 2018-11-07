@@ -28,8 +28,26 @@
   filter: grayscale(100%);
 }
 
+.top-buffer {
+  margin: 20px 0px;
+}
+
+.block__icon_data-medium {
+  height:50px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
 .block__icon_data-larger {
-  height:90px;
+  height:80px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.block__icon_data-largest {
+  height:95px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 .block__title {
@@ -46,4 +64,8 @@
   font-weight: lighter;
   font-size: 20px;
   line-height: 45px;
+}
+
+.right {
+  margin-bottom: 30px;
 }
