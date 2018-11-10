@@ -22,7 +22,7 @@
     <div class="line">
       &nbsp;
     </div>
-    <h1 class="title__main">PROCESS</h1>
+    <h1 class="title__main">OUR PROCESS</h1>
     <p class="title__sub">Stacker leverages thousands of unique data sets and a team of expert researchers, connecting quantitative analysis with objective editorial insights and putting information into context in an easy to navigate format.</p>
   </div>
   <div class="container">
@@ -58,9 +58,8 @@
           <div class="block__icon">
             <%= image_tag "list.svg", class: "block__icon" %>
           </div>
-          <div class="block__title right">
-            <h3>DELIVER FOR DIGITAL</h3>
-            &nbsp;
+          <div class="block__title">
+            <h3>DELIVERED FOR DIGITAL</h3>
           </div>
           <div class="block__text">
             <p>Intuitive slideshow format helps readers navigate to what matters most, and explore new areas with ease</p>
@@ -78,7 +77,7 @@
       &nbsp;
     </div>
     <h1 class="title__main">DATA SOURCES</h1>
-    <p class="title__sub">From census data to box office returns ,Stacker leverages a variety of sources ensuring each story is built upon the most authoritative data available.</p>
+    <p class="title__sub">From census data to box office returns, Stacker leverages a variety of sources ensuring each story is built upon the most authoritative data available. Sources include:</p>
   </div>
   <div class="container">
     <div class="text-center">
@@ -97,16 +96,13 @@
           <%= image_tag "dsgetty.png", class: "block__icon_data" %>
         </div>
         <div class="col-xs-12 col-sm-12 col-lg-3 top-buffer">
+          <%= image_tag "dsstatista.png", class: "block__icon_data" %>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-lg-3 top-buffer">
           <%= image_tag "dskff.png", class: "block__icon_data-larger" %>
         </div>
         <div class="col-xs-12 col-sm-12 col-lg-3 top-buffer">
           <%= image_tag "dsnoaa.png", class: "block__icon_data-larger" %>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-lg-3 top-buffer">
-          <%= image_tag "dsspotify.png", class: "block__icon_data-larger" %>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-lg-3 top-buffer">
-          <%= image_tag "dsstatista.png", class: "block__icon_data" %>
         </div>
         <div class="col-xs-12 col-sm-12 col-lg-3 top-buffer">
           <%= image_tag "dsfoursquare.png", class: "block__icon_data" %>
@@ -150,7 +146,7 @@
             <h3>FOR PUBLISHERS</h3>
           </div>
           <div class="block__text">
-            <p>Looking for objective, highly engaging content to augment your existing coverage? License Stacker’s constantly expanding library of both evergreen and current topics across entertainment, news, travel and more.  </p>
+            <p>Looking for objective, highly engaging content to augment your existing coverage? License Stacker’s constantly expanding library of both evergreen and current topics across entertainment, news, travel and more.</p>
           </div>
         </div>
       </div>
@@ -193,18 +189,18 @@
     <div class="form_one">
       <div class="contact__form">
         <div id="contact_form__remove" class="form">
-          <form class="new_inbound" id="new_inbound" action="mailto:someone@example.com" method="post" enctype="text/plain"><input type="hidden">
+          <form class="new_inbound" id="new_inbound" action="mailto:contact@thestacker.com?subject=General Contact" method="post" enctype="text/plain"><input type="hidden">
             <div class="form__content">
               <label>Name</label>
-              <input type="text" name="inbound[name]" id="inbound_name">
+              <input type="text" id="inbound_name">
               <label>Company Name</label>
-              <input type="text" name="inbound[name]" id="inbound_name">
+              <input type="text" name="Name" id="inbound_name">
               <label>Email</label>
-              <input type="text" name="inbound[email]" id="inbound_email">
+              <input type="text" name="Email" id="inbound_email">
               <label>Message</label>
-              <textarea class="form__message" id="inbound_message"></textarea>
+              <textarea class="form__message" name="Message" id="inbound_message"></textarea>
               <div class="form__button">
-                <input type="submit" name="commit" value="Contact Us" class="button_green" data-disable-with="Contact Us">
+                <input type="submit" value="Contact Us" class="button_green" data-disable-with="Contact Us">
               </div>
             </div>
           </form>
@@ -214,18 +210,18 @@
     <div class="form_two" style="display:none">
       <div class="contact__form">
         <div id="contact_form__remove" class="form">
-          <form class="new_inbound" id="new_inbound" action="mailto:someone@example.com" method="post" enctype="text/plain"><input type="hidden">
+          <form class="new_inbound" id="new_inbound" action="mailto:contact@thestacker.com?subject=Publishers" method="post" enctype="text/plain"><input type="hidden">
             <div class="form__content">
               <label>Name</label>
-              <input  type="text" name="inbound[name]" id="inbound_name">
+              <input type="text" id="inbound_name">
               <label>Company Name</label>
-              <input  type="text" name="inbound[name]" id="inbound_name">
+              <input type="text" name="Name" id="inbound_name">
               <label>Email</label>
-              <input  type="text" name="inbound[email]" id="inbound_email">
+              <input type="text" name="Email" id="inbound_email">
               <label>Message</label>
-              <textarea class="form__message" id="inbound_message"></textarea>
+              <textarea class="form__message" name="Message" id="inbound_message"></textarea>
               <div class="form__button">
-                <input type="submit" name="commit" value="Contact Us" class="button_green" data-disable-with="Contact Us">
+                <input type="submit" value="Contact Us" class="button_green" data-disable-with="Contact Us">
               </div>
             </div>
           </form>
@@ -235,18 +231,18 @@
     <div class="form_three" style="display:none">
       <div class="contact__form">
         <div id="contact_form__remove" class="form">
-          <form class="new_inbound" id="new_inbound" action="mailto:someone@example.com" method="post" enctype="text/plain"><input type="hidden">
+          <form class="new_inbound" id="new_inbound" action="mailto:contact@thestacker.com?subject=Researchers" method="post" enctype="text/plain"><input type="hidden">
             <div class="form__content">
               <label>Name</label>
-              <input type="text" name="inbound[name]" id="inbound_name">
+              <input type="text" id="inbound_name">
               <label>Company Name</label>
-              <input type="text" name="inbound[name]" id="inbound_name">
+              <input type="text" name="Name" id="inbound_name">
               <label>Email</label>
-              <input type="text" name="inbound[email]" id="inbound_email">
+              <input type="text" name="Email" id="inbound_email">
               <label>Message</label>
-              <textarea class="form__message" id="inbound_message"></textarea>
+              <textarea class="form__message" name="Message" id="inbound_message"></textarea>
               <div class="form__button">
-                <input type="submit" name="commit" value="Contact Us" class="button_green" data-disable-with="Contact Us">
+                <input type="submit" value="Contact Us" class="button_green" data-disable-with="Contact Us">
               </div>
             </div>
           </form>
