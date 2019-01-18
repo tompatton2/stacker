@@ -1,35 +1,58 @@
-  .list {
-    color: black;
-    border-bottom: .5px solid grey;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 20px;
-    padding-bottom: 25px;
-    margin-top: 25px;
-  }
+.list {
+  color: black;
+  border-bottom: .5px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  padding-bottom: 25px;
+  margin-top: 25px;
+}
 
-  .list__right {
-    padding-top: 20px;
-    font-size: 15px;
-    letter-spacing: 2px;
-    font-weight: lighter;
-  }
+.list__right {
+  padding-top: 20px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
 
-  .list__job-name {
-    color: $dark-blue;
-    font-weight: bold;
-    font-size: 30px;
-  }
+.list__job-name {
+  color: $dark-blue;
+  font-weight: bold;
+  font-size: 30px;
+}
 
-  .list__description {
+.list__description {
+  color: $black;
+  font-weight: lighter;
+}
+
+.list__description_sub {
+  p, ul {
+    font-size: 14px;
     color: $black;
     font-weight: lighter;
   }
 
-
-  @media only screen and (min-width: 1200px) {
-    .list__left {
-      max-width: 70%;
-    }
+  h5 {
+    color: $dark-blue;
+    font-weight: bold;
+    font-size: 16px;
   }
+}
+
+button {
+  border: 0px;
+  background-color: $aqua-blue;
+  color: white;
+  font-size: 13px;
+  padding: 10px 25px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .list__left {
+    max-width: 70%;
+  }
+}
